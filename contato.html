@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .titulo-contato {
+            background-color: #262727;
+            color: white;
+            padding: 50px 700px;
+            border-radius: 8px;
+            font-style: italic;
+            font-size: 1.8em;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 40px;
+        }
+
+        form {
+            background-color: #1c1c1c;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: 40px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #444;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #666;
+        }
+
+        nav {
+            background-color: #262727;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+   
+</head>
+<br>
+<nav>
+        <a href="index.html">𝖧𝖮𝖬𝖤</a>
+        <a href="sinopse.html">𝖲𝖨𝖭𝖮𝖯𝖲𝖤</a>
+        <a href="elenco.html">𝖤𝖫𝖤𝖭𝖢𝖮</a>
+        <a href="dados-historicos.html">𝖣𝖠𝖣𝖮𝖲 𝖧𝖨𝖲𝖳𝖮𝖱𝖨𝖢𝖮𝖲</a>
+        <a href="contato.html">𝖢𝖮𝖭𝖳𝖠𝖳𝖮</a>
+    </nav>
+<body>
+
+    <!-- Título -->
+    <div style="text-align: center;">
+        <h1 class="titulo-contato">Contato</h1>
+    </div>
+
+    <!-- Formulário -->
+    <form action="#" method="post">
+        <p>Para entrar em contato, preencha o formulário abaixo:</p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required>
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required>
+
+        <label for="whatsapp">Whatsapp:</label>
+        <input type="text" id="whatsapp" name="whatsapp" required>
+
+        <label for="instagram">Instagram:</label>
+        <input type="text" id="instagram" name="instagram" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Menu de navegação -->
+   
+<br>
+</body>
+</html>
